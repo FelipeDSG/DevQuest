@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+main {
+    font-family: "Public Sans", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.pintura {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagem {
+    position: relative;
+    width: 335px;
+    height: 431px;
+
+
+}
+
+.imagem img {
+
+    width: 100%;
+}
+
+.informacoes {
+    position: absolute;
+    bottom: 43px;
+    left: 25px;
+    color: #FFFFFF;
+}
+
+.informacoes h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+}
+
+.informacoes h3 {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+@media(max-width: 1440px) {
+
+    .pintura {
+
+        max-width: 900px;
+        margin-top: 30px;
+        gap: 1px;
+    }
+}
